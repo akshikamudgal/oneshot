@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+html { font-size: 22px; }
+body { padding: 1rem; }
+
+.card {
+  background-color: grey;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+    </style> 
+<body>
+    <div class="start">
+        <h2 style=" font-family: Fantasy, Papyrus; color:red;"><center>Welcome To ONESHOT</center></h2>
+        <marquee> <h2>Choose your college!!</h2></marquee>
+        <marquee direction="right" style="border:BLACK 2px SOLID">
+        </marquee>
+    </div>
+    <div class="navbar">
+        <nav>  
+            <ul>  
+            <li>  
+            <a href="index.html">College</a>  
+            </li>  
+            <li>  
+            <a href="student.html">Students</a>  
+            </li>  
+            <li>  
+            <a href="dashboard.html">Dashboard</a>  
+            </li>   
+            </ul>  
+        </nav> 
+    </div>
+    <div>
+        <h3 style=" font-family: Fantasy, Papyrus; color:red;"><center>College Details</center></h3>  
+    </div>
+    <div class="cards">
+      <div class="card"><a href="index1.html">College1</a></div>
+      <div class="card"><a href="index1.html">College2</a></div>
+      <div class="card"><a href="index1.html">College3</a></div>
+      <div class="card"><a href="index1.html">College4</a></div>
+      <div class="card"><a href="index1.html">College5</a></div>
+      <div class="card"><a href="index1.html">College6</a></div>
+      <div class="card"><a href="index1.html">College7</a></div>
+      <div class="card"><a href="index1.html">College8</a></div>
+      <div class="card"><a href="index1.html">College9</a></div>
+      <div class="card"><a href="index1.html">College10</a></div>
+      <div class="card"><a href="index1.html">College11</a></div>
+      <div class="card"><a href="index1.html">College12</a></div>
+    </div>
+</body>
+  
+</html>
